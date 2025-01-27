@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  margin-top: 60px;
+  width: 200px;
+  fieldset{
+    text-align: center;
+    border-radius: 5px;
+  }
+  legend{
+    margin-bottom: 12px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  label,input{
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+  input[type="number"]{
+    padding-left: 3px;
+    width: 50%;
+    font-size: 10px;
+    padding: 3px;
+  }
+  input:focus{
+    outline: none;
+    border-radius: 5px;
+  }
+  button{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 90%;
+    border-radius: 5px;
+  }
+  .alerta{
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: seashell;
+    background-color: red;
+    display: none;
+  }
+  .sucesso{
+    border: 1px solid green;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color: seashell;
+    background-color: green;
+    display: none;
+    margin-top: 10px;
+  }
+}
