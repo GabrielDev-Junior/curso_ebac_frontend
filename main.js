@@ -30,3 +30,6 @@ $('#enviar').click(function () {
     alert("Informe uma tarefa!");
   }
 })
+$(document).on('click', 'li', function () {
+  $(this).toggleClass('riscando');
+});

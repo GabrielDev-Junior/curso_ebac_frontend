@@ -99,6 +99,6 @@ li p{
   color: #fff;
   border-bottom: 1px solid #fff;
 }
-li:hover{
+.riscando{
   text-decoration: line-through;
 }
